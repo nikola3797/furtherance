@@ -1,10 +1,10 @@
-import styles from '../../../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import LetsTalkBtn from '../LetsTalkBtn/index';
 import Image from 'next/image';
-import Logo from '../../../assets/images/full-logo.svg';
+import Logo from '../../assets/images/full-logo.svg';
 import useWindowDimensions from '../Hooks/index';
-import navMenu from '../../../assets/images/nav.menu.png';
-import miniLogo from '../../../assets/images/miniLogo.png';
+import navMenu from '../../assets/images/nav.menu.png';
+import miniLogo from '../../assets/images/miniLogo.png';
 
 
 const NavBar = (props) => {

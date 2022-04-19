@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import arrowPic from '../../../assets/images/arrows.svg';
-import styles from '../../../styles/Home.module.css';
+import arrowPic from '../../assets/images/arrows.svg';
+import styles from '../../styles/Home.module.css';
 import useWindowDimensions from '../Hooks/index';
 
 

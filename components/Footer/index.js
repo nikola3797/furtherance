@@ -1,7 +1,7 @@
-import styles from '../../../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
-import LinkedInLogo from '../../../assets/images/ln.logo.svg';
-import Logo from '../../../assets/images/logo.svg';
+import LinkedInLogo from '../../assets/images/ln.logo.svg';
+import Logo from '../../assets/images/logo.svg';
 import useWindowDimensions from '../Hooks/index';
 
 const Footer = () => {

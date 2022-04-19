@@ -1,12 +1,12 @@
-import styles from '../../../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import useWindowDimensions from '../Hooks/index';
 import Image from 'next/image';
-import Uki from '../../../assets/images/uki.jpg';
-import Paja from '../../../assets/images/paja.jpeg';
-import Nikola from '../../../assets/images/nikola.samardzija.jpg';
-import BlueLnLogo from '../../../assets/images/ln.svg';
-import German from '../../../assets/images/german.png';
-import Serbia from '../../../assets/images/serbia.png';
+import Uki from '../../assets/images/uki.jpg';
+import Paja from '../../assets/images/paja.jpeg';
+import Nikola from '../../assets/images/nikola.samardzija.jpg';
+import BlueLnLogo from '../../assets/images/ln.svg';
+import German from '../../assets/images/german.png';
+import Serbia from '../../assets/images/serbia.png';
 
 
 

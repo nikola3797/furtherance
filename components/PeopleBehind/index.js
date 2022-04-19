@@ -1,8 +1,8 @@
-import styles from '../../../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import Image from 'next/image';
-import firstPic from '../../../assets/images/1.png';
-import secondPic from '../../../assets/images/2.png';
-import thirdPic from '../../../assets/images/3.png';
+import firstPic from '../../assets/images/1.png';
+import secondPic from '../../assets/images/2.png';
+import thirdPic from '../../assets/images/3.png';
 
 
 const PeopleBehindUs = () => {
