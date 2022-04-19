@@ -22,7 +22,7 @@ const Footer = () => {
             </div>}
             <div className={styles.footerDiv}>
                 <div style={{marginRight: '35px'}}>
-                    <span className={styles.mail} onClick={() => window.location = 'mailto:vladapavlov@gmail.com'}>vladapavlov@gmail.com</span>
+                    <span className={styles.mail} onClick={() => window.location = 'mailto:vladislav.pavlov@furtherance.rs'}>vladislav.pavlov@furtherance.rs</span>
                     <span className={styles.footerBlockDisplay}>Serbia, Belgrade</span>
                 </div>
                 <div>
