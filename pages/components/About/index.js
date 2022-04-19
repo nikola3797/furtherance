@@ -21,7 +21,7 @@ const About = () => {
                     <div className={styles.profileSubtext}>
                         <Image src={Paja} />
                         <div className={styles.profileTextSection}>
-                            <div>'Dintegra is a software company in the industrial engineering space, and the challenge we faced was building a small dev team in a matter of months, to satisfy the requirements of a big project. Furtherance has helped us find the right people and open up a development team in Serbia, and gave us strategic insights into how we can develop our business further.'</div>
+                            <div>Dintegra is a software company in the industrial engineering space, and the challenge we faced was building a small dev team in a matter of months, to satisfy the requirements of a big project. Furtherance has helped us find the right people and open up a development team in Serbia, and gave us strategic insights into how we can develop our business further.</div>
                             <div className={styles.profileText}>
                                 <div className={styles.profileTextTitle}>Pavle Andjelkovic</div>
                                 <a style={{textDecoration: 'underline'}} href='https://www.dintegra.io/' target='_blank' rel='noopener noreferrer'>Dintegra</a>
@@ -40,8 +40,8 @@ const About = () => {
                     <div className={styles.profileSubtext}>
                         <Image src={Uki} />
                         <div className={styles.profileTextSection}>
-                            <div>'Beohost is a proptech startup, and we needed help in creating and launching a new software product. Furtherance helped us find the right software development agency,
-                                with whom we were able to build a product from scratch and launch it in a couple of months.'</div>
+                            <div>Beohost is a proptech startup, and we needed help in creating and launching a new software product. Furtherance helped us find the right software development agency,
+                                with whom we were able to build a product from scratch and launch it in a couple of months.</div>
                             <div className={styles.profileText}>
                                 <div className={styles.profileTextTitle}>Uros Djakovic</div>
                                 <a style={{textDecoration: 'underline'}} href='https://beohost.rs/' target='_blank' rel='noopener noreferrer'>Beohost</a>
@@ -59,7 +59,7 @@ const About = () => {
                     <div className={styles.profileSubtext}>
                         <Image src={Nikola} />
                         <div className={styles.profileTextSection}>
-                            <div>'Skenit is a startup focused on the fitness industry, and we had lots of challenges at the beginning. Furtherance helped us on different aspects of our business. They connected us with a sales mentor who helped us refine and structure our sales strategy, and they connected us with various experts in the industry.'</div>
+                            <div>Skenit is a startup focused on the fitness industry, and we had lots of challenges at the beginning. Furtherance helped us on different aspects of our business. They connected us with a sales mentor who helped us refine and structure our sales strategy, and they connected us with various experts in the industry.</div>
                             <div className={styles.profileText}>
                                 <div className={styles.profileTextTitle}>Nikola Samardzija</div>
                                 <a style={{textDecoration: 'underline'}} href='https://skenit.com/' target='_blank' rel='noopener noreferrer'>Skenit</a>

@@ -32,7 +32,7 @@ const NavBar = (props) => {
             {width < 600 ?
             <div>
                 <span style={{marginRight: '15px'}}>
-                    <a onClick={props.letsTalk} style={{marginRight: '10px'}} className={styles.link}>Let's Talk</a>
+                    <a onClick={props.letsTalk} style={{marginRight: '10px'}} className={styles.link}>Lets Talk</a>
                     <Image onClick={props.openNavBar} src={navMenu} style={{cursor: 'pointer'}}/>
                 </span>
             </div> : <div>

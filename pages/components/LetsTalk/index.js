@@ -37,7 +37,7 @@ const LetsTalk = () => {
 
     return (
         <div className={styles.letsTalk}>
-            <h1>Let's Talk</h1>
+            <h1>Lets Talk</h1>
             <form className={styles.form} onSubmit={onSubmit}>
                 <div>
                     <div className={styles.letsTalkPadding}>Hello,</div>
