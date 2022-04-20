@@ -389,14 +389,15 @@
 }
 
 .peopleBehindUsSubP {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .pictureRow {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .letsTalk {
