@@ -22,10 +22,10 @@ const PeopleBehindUs = () => {
                     <h2 style={{marginTop: '0px'}}>What</h2>
                     <Image src={secondPic} />
                     <p className={styles.peopleBehindUsSubP}>Services include:<br/>
-                        Consultants in the field of fundraising, sales, marketing, business development and 
-                        Outsource agencies for<br/> HR and hiring nearshore/offshore IT teams or Sales teams for UK/USA/AU/Balkans</p>
+                        Consultants in the field of fundraising, sales, marketing, business development and <br />
+                        Outsource agencies for HR and hiring nearshore/offshore IT teams or Sales teams for UK/USA/AU/Balkans</p>
                 </div>
-                <div style={{width: '33%', marginBottom: '20px'}}>
+                <div style={{width: '33%', marginBottom: '30px'}}>
                     <h2 style={{marginTop: '0px'}}>Why</h2>
                     <Image src={thirdPic} />
                     <p className={styles.peopleBehindUsSubP}>
