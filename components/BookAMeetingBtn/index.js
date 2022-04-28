@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css';
 
-const BookAMetting = () =>{
+const BookAMeetingBtn = () =>{
     return (
         <button
             className={styles.bookAMetting}
@@ -10,4 +10,4 @@ const BookAMetting = () =>{
     );
 };
 
-export default BookAMetting;
+export default BookAMeetingBtn;

@@ -5,8 +5,9 @@ const LetsTalkBtn = (props) =>{
         <button
             className={styles.letsTalkBtn}
             onClick={props.onLetsTalkClick}
+            style={props.style}
         >
-            Lets Talk
+            Let&apos;s Talk
         </button>
     );
 };

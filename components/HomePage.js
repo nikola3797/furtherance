@@ -1,9 +1,9 @@
 import styles from '../styles/Home.module.css';
 import LetsTalkBtn from './LetsTalkBtn';
-import BookAMetting from './BookAMeeting';
+import BookAMeetingBtn from './BookAMeetingBtn';
 import NavBar from './NavBar';
 import Image from 'next/image';
-import myPic from '../assets/images/pic.png';
+import HomePic from '../assets/images/homePicture.jpg';
 import HowItWorks from './HowItWorks/index';
 import HowItWorksMobile from './HowItWorks/mobile';
 import About from './About';
@@ -54,8 +54,12 @@ const openNavBar = () => {
     setOpenNav(!openNav);
 };
 
+// const font = <style>
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+// </style>
+
     return (
-       <div ref={home}>
+       <div ref={home} className={styles.font}>
            <NavBar
                 logoClick={homeClickHandler}
                 homeClick={homeClickHandler}
@@ -76,7 +80,6 @@ const openNavBar = () => {
                     <div className={styles.homeSectionWidth}>
                         <div>
                             <h1 className={styles.title}><span className={styles.newColor}>Furtherance</span> helps you find the right partner to go further in your business</h1>
-                            {/* {width < 600 && <div className={styles.smallPic}><Image src={myPic} alt='Home picture' height='250px' width='200px'/></div>} */}
                         </div>
                         <div>
                             <p className={styles.subtitle}>
@@ -87,14 +90,13 @@ const openNavBar = () => {
                         </div>
                         <div className={styles.buttonSection}>
                             <LetsTalkBtn onLetsTalkClick={contactClickHandler}/>
-                            <BookAMetting />
+                            <BookAMeetingBtn />
                         </div>
                     </div>
-                    {width > 600 && <div style={{width: '60%'}}>
+                    {width > 400 && <div style={{width: '60%'}}>
                         <Image
-                            src={myPic}
+                            src={HomePic}
                             alt='Home picture'
-                            height='550px'
                         />
                     </div>}
                 </div>
@@ -110,7 +112,7 @@ const openNavBar = () => {
            </div>
            <div className={styles.successStory}>
                 <h1>Do you want to be our next success story?</h1>
-                <LetsTalkBtn onLetsTalkClick={contactClickHandler}/>
+                <LetsTalkBtn style={{marginRight: '0px'}} onLetsTalkClick={contactClickHandler}/>
             </div>
             <PeopleBehindUs />
             <div ref={contact}>

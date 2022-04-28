@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+.font {
+  font-family: 'Poppins', cursive;
+}
 
 .navBar {
   position: -webkit-sticky;
@@ -16,7 +22,7 @@
   cursor: pointer;
   padding-right: 35px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .letsTalkBtn {
@@ -30,126 +36,6 @@
   margin-right: 35px;
 }
 
-@media screen and (max-width: 600px) {
-  .logo {
-    padding-left: 15px !important;
-  }
-  .link {
-    color: #fe7062 !important;
-    text-decoration: underline !important;
-    padding-right: 10px !important;
-    cursor: pointer !important;
-    font-weight: 400 !important;
-  }
-  .appContainer {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-  .title {
-    z-index: 99 !important;
-  }
-  .letsTalkBtn {
-    margin-bottom: 15px !important;
-  }
-  .smallPic {
-    position: absolute !important;
-    height: 300px !important;
-    right: 0 !important;
-  }
-
-  .howItWorks {
-    display: block !important;
-    column-count: auto !important;
-  }
-
-  .homeSectionWidth {
-    width: 100% !important;
-  }
-
-  .freeConsultatinStep2 {
-    border-radius: 40px;
-    background-color: #DFE7FE;
-    padding: 25px;
-    margin: 25px;
-    white-space: pre-line;
-    margin-top: 35px !important;
-    border-top: 5px solid #FE7062;
-    border-left: 5px solid #FE7062;
-  }
-
-  .stepOne {
-    padding-top: 0px !important;
-  }
-  
-  .freeConsultatinStep3 {
-    border-radius: 40px;
-    background-color: #DFE7FE;
-    padding: 25px;
-    margin: 25px;
-    margin-top: 30px !important;
-    white-space: pre-line;
-    border-top: 5px solid #61ABD1;
-    border-right: 5px solid #61ABD1;
-  }
-
-  .profileContainer {
-    display: block !important;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    white-space: pre-line;
-  }
-
-  .profile {
-    margin-bottom: 10px !important;
-    margin: auto !important;
-    width: 200px !important;
-  }
-
-  .peopleBehindUsP {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-
-  .peopleBehindUsSubP {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-
-  .pictureRow {
-    display: block !important;
-  }
-
-  .form {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-
-  .footer {
-    display: block !important;
-    padding: 15px !important;
-    height: 200px !important;
-  }
-
-  .footerDiv {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
-    justify-content: space-between;
-  }
-
-  .input {
-    width: 100% !important;
-    margin-bottom: 10px !important;
-    margin-top: 10px !important;
-  }
-
-  .letsTalkPadding {
-    padding-bottom: 0px !important;
-  }
-};
-
 
 .smallPic {
   position: absolute;
@@ -158,13 +44,13 @@
 }
 
 .logo {
-  padding-left: 75px;
+  padding-left: 25px;
   cursor: pointer;
 }
 
 .appContainer {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 30px;
 }
 
@@ -223,7 +109,10 @@
 
 .profileSubtext {
   font-size: 12px;
-  height: 50%;
+  height: 250px;
+  background-color: #61ABD1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .profileTextSection {
@@ -263,7 +152,7 @@
 }
 
 .howItWorks {
-  column-count: 3;
+  display: flex;
   cursor: default;
 }
 
@@ -272,87 +161,93 @@
   cursor: default;
 }
 
-.freeConsultatinStep {
+.freeConsultatinStep1 {
+  position: relative;
   border-radius: 40px;
+  width: 300px;
+  height: 375px;
   background-color: #DFE7FE;
   padding: 25px;
-  margin: 25px;
-  white-space: pre-line;
+  margin-right: 100px;
 }
 
 .freeConsultatinStep2 {
+  position: relative;
   border-radius: 40px;
+  width: 400px;
+  height: 475px;
   background-color: #DFE7FE;
   padding: 25px;
-  margin: 25px;
-  white-space: pre-line;
-  margin-top: 350px;
-  border-top: 5px solid #FE7062;
-  border-left: 5px solid #FE7062;
-}
-
-.freeConsultatinStep1 {
-  border-radius: 40px;
-  background-color: #DFE7FE;
-  padding: 25px;
-  margin: 25px;
-  white-space: pre-line;
-  border-top: 5px solid #002D71;
-  border-right: 5px solid #002D71;
+  margin-right: 100px;
 }
 
 .freeConsultatinStep3 {
+  position: relative;
   border-radius: 40px;
+  width: 300px;
+  height: 375px;
   background-color: #DFE7FE;
   padding: 25px;
-  margin: 25px;
-  margin-top: 350px;
-  white-space: pre-line;
-  border-top: 5px solid #61ABD1;
-  border-right: 5px solid #61ABD1;
+}
+
+.freeConsultatinStep4 {
+  text-align: center;
+  background-color: #DFE7FE;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  margin-top: 75px;
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-bottom: 125px;
 }
 
 .circleDiv {
-  margin-bottom: 45px;
+ position: absolute;
+ left: 40%;
+ top: -35px;
 }
 
 .circle1 {
-  padding-top: 7px;
+  padding-top: 5px;
   background-color: #002D71;
   color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  height: 45px;
-  width: 45px;
+  font-weight: 500;
+  font-size: 32px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
+  border: 5px solid #fff;
 }
 
 .circle2 {
   background-color: #FE7062;
-  padding-top: 7px;
+  padding-top: 15px;
   color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  height: 45px;
-  width: 45px;
+  font-weight: 500;
+  font-size: 32px;
+  height: 85px;
+  width: 85px;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
+  border: 5px solid #fff;
 }
 
 .circle3 {
   background-color: #61ABD1;
-  padding-top: 7px;
+  padding-top: 5px;
   color: #fff;
-  font-weight: bold;
-  font-size: 20px;
-  height: 45px;
-  width: 45px;
+  font-weight: 500;
+  font-size: 32px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
+  border: 5px solid #fff;
 }
 
 .about {
@@ -388,6 +283,10 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.oneRow {
+  width: 33%;
+}
+
 .peopleBehindUsSubP {
   padding-left: 50px;
   padding-right: 50px;
@@ -395,7 +294,7 @@
 
 .pictureRow {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   width: 100%;
 }
@@ -411,9 +310,6 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-left: 120px;
-  padding-right: 120px;
-  text-align: start;
   margin-top: 50px;
 }
 
@@ -444,7 +340,6 @@
 }
 
 .submitBtn {
-  text-align: center;
   margin-top: 35px;
 }
 
@@ -455,8 +350,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 35px;
+  padding-right: 35px;
   cursor: default;
 }
 
@@ -503,3 +398,149 @@
   display: block;
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+
+  .logo {
+    padding-left: 15px !important;
+  }
+
+  .link {
+    color: #fe7062 !important;
+    text-decoration: underline !important;
+    padding-right: 10px !important;
+    cursor: pointer !important;
+    font-weight: 400 !important;
+  }
+
+  .appContainer {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .title {
+    z-index: 99 !important;
+  }
+
+  .letsTalkBtn {
+    margin-bottom: 15px !important;
+  }
+
+  .smallPic {
+    position: absolute !important;
+    height: 300px !important;
+    right: 0 !important;
+  }
+
+  .howItWorks {
+    display: block !important;
+    column-count: auto !important;
+  }
+
+  .homeSectionWidth {
+    width: 100% !important;
+  }
+
+
+  .stepOne {
+    padding-top: 0px !important;
+  }
+
+  .freeConsultatinStep1 {
+    width: 250px !important;
+    margin: auto !important;
+    margin-top: 75px !important;
+    text-align: center !important;
+  }
+
+  .freeConsultatinStep2 {
+    width: 250px !important;
+    margin: auto !important;
+    margin-top: 75px !important;
+    text-align: center !important;
+  }
+
+  .circle2 {
+    height: 65px !important;
+    width: 65px !important;
+    padding-top: 5px !important;
+  }
+  
+  .freeConsultatinStep3 {
+    width: 250px !important;
+    margin: auto !important;
+    margin-top: 75px !important;
+    text-align: center !important;
+  }
+
+  .profileContainer {
+    display: block !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    white-space: pre-line;
+  }
+
+  .profile {
+    margin-bottom: 10px !important;
+    margin: auto !important;
+    width: 200px !important;
+  }
+
+  .profileSubtext {
+   height: 200px !important;
+  }
+
+  .peopleBehindUs {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .peopleBehindUsP {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .peopleBehindUsSubP {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .oneRow {
+    width: auto !important;
+    margin-top: 75px !important;
+  }
+
+  .pictureRow {
+    display: block !important;
+  }
+
+  .form {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .footer {
+    display: block !important;
+    padding: 15px !important;
+    height: 200px !important;
+  }
+
+  .footerDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .letsTalkPadding {
+    padding-bottom: 0px !important;
+  }
+};

@@ -37,7 +37,7 @@ const LetsTalk = () => {
 
     return (
         <div className={styles.letsTalk}>
-            <h1>Lets Talk</h1>
+            <h1>Let&apos;s Talk</h1>
             <form className={styles.form} onSubmit={onSubmit}>
                 <div>
                     <div className={styles.letsTalkPadding}>Hello,</div>
@@ -55,10 +55,11 @@ const LetsTalk = () => {
                     </div>
                     <div className={styles.letsTalkPadding}>
                         pease reach  out to me at <input className={styles.input} value={email} onChange={e => setEmail(e.target.value)} type='text' name='email' placeholder='Email'/> or 
-                        <input className={styles.input} type='text' value={phone} onChange={e => setPhone(e.target.value)} placeholder='Phone' name='phone'/> Thanks
+                        <input className={styles.input} type='text' value={phone} onChange={e => setPhone(e.target.value)} placeholder='Phone' name='phone'/>
                     </div>
+                    <div>Thanks</div>
                     <div className={styles.submitBtn}>
-                        <input className={styles.letsTalkBtn} type="submit" value='Send'/>
+                        <input style={{marginRight: '0px'}} className={styles.letsTalkBtn} type="submit" value='Send'/>
                     </div>
                 </div>
             </form>

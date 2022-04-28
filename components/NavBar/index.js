@@ -25,8 +25,8 @@ const NavBar = (props) => {
             </div>}
             {width < 600 ? null : <div>
                 <a onClick={props.homeClick} className={styles.link}>Home</a>
-                <a onClick={props.howItWorksClick} className={styles.link}>How it works</a>
-                <a onClick={props.aboutClick} className={styles.link}>About</a>
+                <a onClick={props.howItWorksClick} className={styles.link}>How It Works</a>
+                <a onClick={props.aboutClick} className={styles.link}>Use Case</a>
                 <a onClick={props.contactClick} style={{paddingRight: '0px'}} className={styles.link}>Contact</a>
             </div>}
             {width < 600 ?
