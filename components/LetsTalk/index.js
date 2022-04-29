@@ -1,5 +1,6 @@
 import styles from '../../styles/Home.module.css';
 import {useState} from 'react';
+import axios from 'axios';
 
 
 const LetsTalk = () => {
@@ -15,17 +16,15 @@ const LetsTalk = () => {
 
     const onSubmit = () => {
         event.preventDefault();
-        console.log(
-            {
-                firstName,
-                lastName,
-                email,
-                phone,
-                team,
-                organizationName,
-                date,
-            }
-        )
+        axios.post('https://furtherance-e711d-default-rtdb.firebaseio.com/korisnici.json',{
+            firstName,
+            lastName,
+            email,
+            phone,
+            team,
+            organizationName,
+            date
+        });
         setDate('');
         setEmail('');
         setFirstName('');

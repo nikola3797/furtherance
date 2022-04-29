@@ -318,6 +318,7 @@
   border-right: none;
   border-left: none;
   border-bottom: 2px solid #61ABD1;
+  margin-left: 10px;
 }
 
 .input:focus {

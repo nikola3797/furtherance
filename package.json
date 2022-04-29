@@ -8,6 +8,7 @@
     "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.1.1",
     "react": "17.0.2",
     "react-archer": "^3.3.0",
