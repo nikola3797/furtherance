@@ -39,6 +39,10 @@ const HowItWorksMobile = () => {
                         Pricing: We only charge if you do a deal with our partners! We take a small finders fee  
                     </div>
                 </div>
+                <div style={{marginRight: '-15px', marginLeft: '-15px', paddingLeft: '15px', paddingRight: '15px'}} className={styles.freeConsultatinStep4}>
+                    <h3>Pricing</h3>
+                    <sapn style={{borderBottom: '1px solid #FE7062'}}>We only charge if you do a deal with our partners! We take a small finders fee.</sapn>  
+            </div>
             </div>
         </div>
         </div>
