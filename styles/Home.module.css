@@ -98,6 +98,7 @@
 }
 
 .profile {
+  position: relative;
   margin-right: 150px;
   height: 540px;
   width: 250px;
@@ -543,5 +544,9 @@
 
   .letsTalkPadding {
     padding-bottom: 0px !important;
+  }
+
+  .circleDiv {
+    left: 37% !important
   }
 };
