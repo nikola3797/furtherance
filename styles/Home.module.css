@@ -205,7 +205,7 @@
 
 .circleDiv {
  position: absolute;
- left: 40%;
+ left: 39%;
  top: -35px;
 }
 
@@ -487,6 +487,7 @@
     margin-bottom: 10px !important;
     margin: auto !important;
     width: 200px !important;
+    height: 560px !important;
   }
 
   .profileSubtext {
