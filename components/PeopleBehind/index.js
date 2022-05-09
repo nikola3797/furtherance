@@ -14,33 +14,31 @@ const PeopleBehindUs = () => {
             </p>
             <div className={styles.pictureRow}>
                 <div className={styles.oneRow}>
-                    <h2 style={{marginTop: '0px'}}>Who</h2>
+                    <h2 style={{marginTop: '0px'}}>Why</h2>
                     <Image
                         src={whoPicture}
                         alt='Who Picture'
                     />
-                    <p className={styles.peopleBehindUsSubP}>Furtherance is a collective of founders, sales and marketing experts, fundraising consultants and outsource agencies for all relevant topics that startups need.</p>
+                    <p className={styles.peopleBehindUsSubP}>One of the biggest reasons startups fail is because they couldn't, find the right people or companies to help them go further in their business. The reasons were either, they didn't know anyone or they didn't have enough time to invest in finding them. Because we were able to help startups in this regard, we created Furtherance.</p>
                 </div>
                 <div className={styles.oneRow}>
-                    <h2 style={{marginTop: '0px'}}>What</h2>
+                    <h2 style={{marginTop: '0px'}}>How</h2>
                     <Image
                         src={whatPicture}
                         alt='What Picture'
                     />
-                    <p className={styles.peopleBehindUsSubP}>Services include:<br/>
-                        Consultants in the field of fundraising, sales, marketing, business development and <br />
-                        Outsource agencies for HR and hiring nearshore/offshore IT teams or Sales teams for UK/USA/AU/Balkans</p>
+                    <p className={styles.peopleBehindUsSubP}>The Furtherance team consists of seasoned people in the startup ecosystem. We help you firstly, by talking with you, understanding where you are at, and giving advice on how you can solve some of your challenges. We do this free of charge. If you feel that you can't solve some of them on your own, we connect you with our partners.</p>
                 </div>
                 <div className={styles.oneRow}>
-                    <h2 style={{marginTop: '0px'}}>Why</h2>
+                    <h2 style={{marginTop: '0px'}}>What</h2>
                     <Image
                         src={whyPicture}
                         alt='Why Picture'
                     />
                     <p className={styles.peopleBehindUsSubP}>
-                        Furtherance was formed because the founding members simply knew a lot of people, and liked connecting and helping founders
-                        in their ecosystem. They understood how important one person can be to the success or failure of a
-                        small and growing startup, so they created Furtherance.</p>
+                    Partners include a lot of different people, but mostly the services they provide are: <br/><br/>
+                    <span style={{fontWeight: 600}}>Consultants in the field of fundraising, sales, marketing, business development and
+                        Outsource agencies for HR and hiring nearshore/offshore IT teams or Sales teams for UK/USA/AU/Balkans.</span></p>
                 </div>
             </div>
         </div>

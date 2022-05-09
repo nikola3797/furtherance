@@ -83,9 +83,8 @@ const openNavBar = () => {
                         </div>
                         <div>
                             <p className={styles.subtitle}>
-                                Furtherance is an organization that helps you connect with relevant experts and outsource agencies based on your
-                                current business challenges
-                                If you need to fill organizational gaps in marketing, sales, HR, finance or anything else, Furtherance is here.
+                            Startups face a lot of small challenges, from not knowing when to pivot, when to fundraise, to who is
+                            the ideal customer or how/where to hire a remote team. We help you to get past these challenges.
                             </p>
                         </div>
                         <div className={styles.buttonSection}>

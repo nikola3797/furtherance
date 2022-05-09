@@ -14,11 +14,10 @@ const HowItWorks = () => {
                             <span>1</span>
                         </span>
                     </div>
-                    <div style={{marginTop: '55px', textAlign: 'center'}}>
-                        <h3 style={{marginBottom: '40px'}}>Free consultation</h3>
-                        You have a short call with us in order to map out the exact things that you need help with.
-                        You might need a sales executive, a consultant,
-                        a growth hacker or a lead gen marketing company.
+                    <div style={{marginTop: '40px', textAlign: 'center'}}>
+                        <h3 style={{marginBottom: '30px'}}>Free consultation</h3>
+                        You get a free consultation with one of our experts. Here we look to understand your exact business challenges, and who is the best fit.
+                        You might need a sales executive, a UX designer or a remote lead gen/marketing/IT company. 
                     </div>
                 </div>
                     <div className={styles.freeConsultatinStep2}>
@@ -28,10 +27,8 @@ const HowItWorks = () => {
                             </span>
                         </div>
                         <div style={{marginTop: '55px', textAlign: 'center'}}>
-                            <h3 style={{marginBottom: '40px'}}>We find you a match</h3>
-                            Based on your needs, we create a private tender for your specific case. We push this to our
-                            private network of verified experts and 
-                            outsourcing firms and get you the best price/value deal. <br/><br/>
+                            <h3 style={{marginBottom: '30px'}}>We find you a match</h3>
+                            Based on your needs, we go through our network to find the best partner and the best price/value deal.<br/><br/>
                             <span style={{fontWeight: 600}}>Partners are carefully selected, verified and vetted and we have a developed personal connection with them.</span>
                         </div>
                     </div>
@@ -42,10 +39,10 @@ const HowItWorks = () => {
                             <span>3</span>
                         </span>
                     </div>
-                    <div style={{marginTop: '55px', textAlign: 'center'}}>
-                        <h3 style={{marginBottom: '40px'}}>You get connected</h3>
-                        You get between 1 and 3 different offers, and get connected with verified experts and
-                        outsource companies, and you choose your fit.  
+                    <div style={{marginTop: '40px', textAlign: 'center'}}>
+                        <h3 style={{marginBottom: '30px'}}>You get connected</h3>
+                        You get connected with 1 - 3 different partners, and you choose your fit.<br/><br/>
+                        Partners consist of specialized professionals or outsourced companies in the fields of sales, marketing, fundraising, IT and others.
                     </div>
                 </div>
             </div>

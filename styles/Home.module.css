@@ -453,6 +453,7 @@
     margin: auto !important;
     margin-top: 75px !important;
     text-align: center !important;
+    height: 425px !important;
   }
 
   .freeConsultatinStep2 {
@@ -460,6 +461,7 @@
     margin: auto !important;
     margin-top: 75px !important;
     text-align: center !important;
+    height: 425px !important;
   }
 
   .circle2 {
@@ -473,6 +475,7 @@
     margin: auto !important;
     margin-top: 75px !important;
     text-align: center !important;
+    height: 425px !important;
   }
 
   .profileContainer {
@@ -526,7 +529,7 @@
   .footer {
     display: block !important;
     padding: 15px !important;
-    height: 200px !important;
+    height: 225px !important;
   }
 
   .footerDiv {
