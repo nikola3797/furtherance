@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.css';
 import LetsTalkBtn from './LetsTalkBtn';
 import BookAMeetingBtn from './BookAMeetingBtn';
 import NavBar from './NavBar';
-import Image from 'next/image';
-import HomePic from '../assets/images/homePicture.jpg';
 import HowItWorks from './HowItWorks/index';
 import HowItWorksMobile from './HowItWorks/mobile';
 import About from './About';
@@ -54,10 +52,6 @@ const openNavBar = () => {
     setOpenNav(!openNav);
 };
 
-// const font = <style>
-// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-// </style>
-
     return (
        <div ref={home} className={styles.font}>
            <NavBar
@@ -93,8 +87,9 @@ const openNavBar = () => {
                         </div>
                     </div>
                     {width > 400 && <div style={{width: '60%'}}>
-                        <Image
-                            src={HomePic}
+                        <img
+                            style={{width: '100%'}}
+                            src={'/images/homePicture.jpg'}
                             alt='Home picture'
                         />
                     </div>}

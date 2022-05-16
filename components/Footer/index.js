@@ -1,7 +1,4 @@
 import styles from '../../styles/Home.module.css';
-import Image from 'next/image';
-import LinkedInLogo from '../../assets/images/ln.logo.svg';
-import Logo from '../../assets/images/logo.svg';
 import useWindowDimensions from '../Hooks/index';
 
 const Footer = () => {
@@ -10,7 +7,11 @@ const Footer = () => {
         <div className={styles.footer}>
             <div style={{display: 'flex', alignItems: 'center'}}>
                 <div style={{paddingTop: '5px', marginRight: '15px'}}>
-                    <Image src={Logo}/>
+                    <img
+                        src={'/images/logo.svg'}
+                        alt={'footer logo'}
+                        style={{width: '100%'}}
+                    />
                 </div>
                 <div>
                     <span>Contact</span>
@@ -26,7 +27,11 @@ const Footer = () => {
                     <span className={styles.footerBlockDisplay}>Serbia, Belgrade</span>
                 </div>
                 <div>
-                    <Image src={LinkedInLogo}/>
+                    <img
+                        src={'/images/ln.logo.svg'}
+                        alt={'little ln logo'}
+                        style={{width: '100%'}}
+                    />
                 </div>
             </div>
             {width < 600 && <div>

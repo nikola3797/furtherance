@@ -1,9 +1,4 @@
 import styles from '../../styles/Home.module.css';
-import Image from 'next/image';
-import whoPicture from '../../assets/images/whoPicture.png';
-import whatPicture from '../../assets/images/whatPicture.png';
-import whyPicture from '../../assets/images/whyPicture.png';
-
 
 const PeopleBehindUs = () => {
     return (
@@ -15,25 +10,28 @@ const PeopleBehindUs = () => {
             <div className={styles.pictureRow}>
                 <div className={styles.oneRow}>
                     <h2 style={{marginTop: '0px'}}>Why</h2>
-                    <Image
-                        src={whoPicture}
+                    <img
+                        src={'/images/whoPicture.png'}
                         alt='Who Picture'
+                        style={{width: '100%'}}
                     />
-                    <p className={styles.peopleBehindUsSubP}>One of the biggest reasons startups fail is because they couldn't, find the right people or companies to help them go further in their business. The reasons were either, they didn't know anyone or they didn't have enough time to invest in finding them. Because we were able to help startups in this regard, we created Furtherance.</p>
+                    <p className={styles.peopleBehindUsSubP}>One of the biggest reasons startups fail is because they couldn&apos;t, find the right people or companies to help them go further in their business. The reasons were either, they didn&apos;t know anyone or they didn&apos;t have enough time to invest in finding them. Because we were able to help startups in this regard, we created Furtherance.</p>
                 </div>
                 <div className={styles.oneRow}>
                     <h2 style={{marginTop: '0px'}}>How</h2>
-                    <Image
-                        src={whatPicture}
+                    <img
+                        src={'/images/whatPicture.png'}
                         alt='What Picture'
+                        style={{width: '100%'}}
                     />
-                    <p className={styles.peopleBehindUsSubP}>The Furtherance team consists of seasoned people in the startup ecosystem. We help you firstly, by talking with you, understanding where you are at, and giving advice on how you can solve some of your challenges. We do this free of charge. If you feel that you can't solve some of them on your own, we connect you with our partners.</p>
+                    <p className={styles.peopleBehindUsSubP}>The Furtherance team consists of seasoned people in the startup ecosystem. We help you firstly, by talking with you, understanding where you are at, and giving advice on how you can solve some of your challenges. We do this free of charge. If you feel that you can&apos;t solve some of them on your own, we connect you with our partners.</p>
                 </div>
                 <div className={styles.oneRow}>
                     <h2 style={{marginTop: '0px'}}>What</h2>
-                    <Image
-                        src={whyPicture}
+                    <img
+                        src={'/images/whyPicture.png'}
                         alt='Why Picture'
+                        style={{width: '100%'}}
                     />
                     <p className={styles.peopleBehindUsSubP}>
                     Partners include a lot of different people, but mostly the services they provide are: <br/><br/>
