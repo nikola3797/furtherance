@@ -47,13 +47,13 @@ const LetsTalk = () => {
                         with <input className={styles.input} value={organizationName} onChange={e => setOrganizationName(e.target.value)} type='text' name='organizationName' placeholder='Organization name'/>
                     </div>
                     <div className={styles.letsTalkPadding}>
-                        I am writing to you becouse i am in need of a expert/outsource agency to fill the gaps in <input value={team} onChange={e => setTeam(e.target.value)} name='team' className={styles.input} type='text' placeholder='Team or Topic'/>
+                        I am writing to you because I am in need of an expert/outsource agency to fill the gaps in <input value={team} onChange={e => setTeam(e.target.value)} name='team' className={styles.input} type='text' placeholder='Team or Topic'/>
                     </div>
                     <div className={styles.letsTalkPadding}> 
                         My hope is to have it completed by <input className={styles.input} value={date} onChange={e => setDate(e.target.value)} name='date' type='text' placeholder='Date'/> I would love to get the conversation started so 
                     </div>
                     <div className={styles.letsTalkPadding}>
-                        pease reach  out to me at <input className={styles.input} value={email} onChange={e => setEmail(e.target.value)} type='text' name='email' placeholder='Email'/> or 
+                        please reach  out to me at <input className={styles.input} value={email} onChange={e => setEmail(e.target.value)} type='text' name='email' placeholder='Email'/> or 
                         <input className={styles.input} type='text' value={phone} onChange={e => setPhone(e.target.value)} placeholder='Phone' name='phone'/>
                     </div>
                     <div>Thanks</div>

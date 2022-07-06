@@ -27,11 +27,17 @@ const Footer = () => {
                     <span className={styles.footerBlockDisplay}>Serbia, Belgrade</span>
                 </div>
                 <div>
-                    <img
+                    <a 
+                     href='https://www.linkedin.com/in/vladislav-pavlov-461464144/'
+                     target="_blank"
+                     rel="noopener noreferrer">
+                       <img
                         src={'/images/ln.logo.svg'}
                         alt={'little ln logo'}
                         style={{width: '100%'}}
-                    />
+                    /> 
+                    </a>
+                    
                 </div>
             </div>
             {width < 600 && <div>
