@@ -427,6 +427,7 @@
 
   .letsTalkBtn {
     margin-bottom: 15px !important;
+    white-space: nowrap;
   }
 
   .smallPic {
@@ -553,5 +554,10 @@
 
   .circleDiv {
     left: 37% !important
+  }
+
+  .bookAMetting {
+    white-space: nowrap;
+    display: block
   }
 };
