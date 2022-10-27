@@ -558,6 +558,7 @@
 
   .bookAMetting {
     white-space: nowrap;
-    display: block
+    display: block;
+    width: 220px;
   }
 };

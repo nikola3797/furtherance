@@ -63,12 +63,12 @@ const openNavBar = () => {
                 letsTalk={contactClickHandler}
                 openNavBar={openNavBar}
            />
-           {width < 600 && openNav && <MobileNavBar
+           {/* {width < 600 && openNav && <MobileNavBar
                 homeClick={homeClickHandler}
                 aboutClick={aboutClickHandler}
                 howItWorksClick={howItWorksClickHandler}
                 contactClick={contactClickHandler}
-           />}
+           />} */}
            <div className={styles.appContainer}>
                 <div className={styles.homeSection}>
                     <div className={styles.homeSectionWidth}>
